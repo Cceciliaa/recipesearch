@@ -18,8 +18,66 @@
   color: white;
 }
 
+body {
+  background-color: #606060;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.input-group {
+  width: 60rem;
+  margin-top: -2rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 1500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.heading{
+  width: 100vw;
+  height: 12rem;
+}
+
+.card {
+  height: 20rem; 
+  box-shadow: 2px 2px 4px 0 #ccc;
+  box-sizing: border-box;
+  margin: auto auto 1rem;
+  padding: 1em;
+  width: calc((100% / 3));
+  margin-top: 1rem;
+}
+
+.toggle {
+  margin-top: -0.5rem;
+  font-weight: 800;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.jumbotron {
+  height: 9rem;
+}
+
+.card-img-top {
+  height: 15rem;
+}
+
+.list-group {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.btn { 
+  margin-top: 1rem;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex: 0 0 auto;
 }
 
 @keyframes App-logo-spin {
